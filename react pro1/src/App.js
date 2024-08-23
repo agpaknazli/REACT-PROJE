@@ -1,7 +1,19 @@
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header";
+import Picture from "./components/Picture";
+
+
+
+
 function App() {
   return (
     <div className="App">
-      <h1>Cohort 17</h1>
+     <h1 className="border border-5">Merhaba</h1>
+
+<Header/>
+<Picture/>
+
     </div>
   );
 }

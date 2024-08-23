@@ -1,0 +1,11 @@
+
+@use "../../scss/variables";
+
+.header{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: variables.$secondary;
+   
+};
