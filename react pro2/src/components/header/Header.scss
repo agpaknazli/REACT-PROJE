@@ -1,5 +1,6 @@
 
 @use "../../scss/variables";
+@use "../../scss/mixins";
 
 .header{
     margin-top: 5rem;
@@ -9,3 +10,19 @@
     color: variables.$secondary;
    
 };
+
+.btnWrapper{
+    @include mixins.wrapper(2rem);
+}
+
+ button{
+    padding: 0.7rem 1rem;
+    background-color: white;
+    border: none;
+    transition: all 1s ease 0s;
+    border-radius: 0.7rem;
+
+    &:hover{
+        background-color: variables.$btn-bg;
+    }
+ }

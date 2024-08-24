@@ -1,1 +1,8 @@
-
+@mixin wrapper($gap){
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:$gap; //degisebilir
+     flex-wrap: wrap;
+}
