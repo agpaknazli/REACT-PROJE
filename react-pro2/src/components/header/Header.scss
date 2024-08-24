@@ -8,11 +8,19 @@
     font-size: 3rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: variables.$secondary;
+
+
+h1{
+
+}
+
+
    
 };
 
 .btnWrapper{
     @include mixins.wrapper(2rem);
+
 }
 
  button{
@@ -21,6 +29,7 @@
     border: none;
     transition: all 1s ease 0s;
     border-radius: 0.7rem;
+    font-size: 1.3rem;
 
     &:hover{
         background-color: variables.$btn-bg;
