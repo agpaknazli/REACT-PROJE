@@ -7,36 +7,19 @@ import data from "../helper/data";
 const Picture=()=>{
 
  return(
- <div className="">
- 
- {data.map((item)=>(
-<h1>{item.name}</h1>
-))};
- 
-
-
-<div className="pictures">
-
-<div className="imageContainer">
-
-<img src="" alt="" />
 
     
-</div>
+    data.map((card)=>{
+return(
+<div className= "pictures col-md-6 col-lg-4 col-xl-3 col-xxl-2">
 
+        <h3>{card.name}</h3>
+        <img src={card.img} alt="" />
+            </div>
 
+)
+})
 
-
-
-</div>
-
-
-
- 
- 
-</div>
-
- );
-};
+)};
 
 export default Picture;

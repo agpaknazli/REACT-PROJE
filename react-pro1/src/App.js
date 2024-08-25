@@ -2,17 +2,20 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Picture from "./components/Picture";
-
+import "./style/style.css"
 
 
 
 function App() {
   return (
     <div className="App">
-     <h1 className="border border-5">Merhaba</h1>
+    
 
 <Header/>
+
+<div className="row">
 <Picture/>
+</div>
 
     </div>
   );
