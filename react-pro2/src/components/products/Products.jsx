@@ -1,17 +1,9 @@
-import React from 'react';
+import React from 'react'
 import './Products.scss'
 
-
-
-const Products = ({products}) => {
-
+const Products = () => {
   return (
-    <div 
-    className='productWrapper'>
-      
-   products.map((ürün)=>)
-      
-      </div>
+    <div className='productWrapper'></div>
   )
 }
 

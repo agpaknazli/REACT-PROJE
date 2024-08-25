@@ -4,9 +4,9 @@ export const products = [
     title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
     price: 109.95,
     description:
-      "Tasche, Rosa, Mode",
+      "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "men's clothing",
-    image: "https://cdn.pixabay.com/photo/2015/11/04/10/47/handbag-1022327_640.png",
+    image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
     rating: {
       rate: 3.9,
       count: 120,
@@ -20,7 +20,7 @@ export const products = [
       "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
     category: "men's clothing",
     image:
-      "https://cdn.pixabay.com/photo/2017/05/23/10/53/t-shirt-design-2336850_640.jpg",
+      "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
     rating: {
       rate: 4.1,
       count: 259,
@@ -33,7 +33,7 @@ export const products = [
     description:
       "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
     category: "men's clothing",
-    image: "https://cdn.pixabay.com/photo/2018/10/10/14/24/shirt-3737407_640.jpg",
+    image: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
     rating: {
       rate: 4.7,
       count: 500,
@@ -46,7 +46,7 @@ export const products = [
     description:
       "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
     category: "men's clothing",
-    image: "https://cdn.pixabay.com/photo/2020/02/05/12/56/men-4821136_1280.jpg",
+    image: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
     rating: {
       rate: 2.1,
       count: 430,
@@ -73,7 +73,7 @@ export const products = [
     description:
       "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
     category: "jewelery",
-    image: "https://cdn.pixabay.com/photo/2018/05/23/18/08/ring-with-ornament-3424669_640.png",
+    image: "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
     rating: {
       rate: 3.9,
       count: 70,
@@ -86,7 +86,7 @@ export const products = [
     description:
       "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
     category: "jewelery",
-    image: "https://cdn.pixabay.com/photo/2022/11/29/11/46/ring-7624372_640.jpg",
+    image: "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
     rating: {
       rate: 3,
       count: 400,
@@ -99,7 +99,7 @@ export const products = [
     description:
       "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
     category: "jewelery",
-    image: "https://cdn.pixabay.com/photo/2013/01/17/19/26/ring-75250_640.jpg",
+    image: "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
     rating: {
       rate: 1.9,
       count: 100,
@@ -112,7 +112,7 @@ export const products = [
     description:
       "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
     category: "electronics",
-    image: "https://cdn.pixabay.com/photo/2016/02/14/19/27/external-hard-drive-1200006_640.jpg",
+    image: "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
     rating: {
       rate: 3.3,
       count: 203,
@@ -125,7 +125,7 @@ export const products = [
     description:
       "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
     category: "electronics",
-    image: "https://cdn.pixabay.com/photo/2017/08/07/17/20/hand-2605908_1280.jpg",
+    image: "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
     rating: {
       rate: 2.9,
       count: 470,
@@ -139,7 +139,7 @@ export const products = [
     description:
       "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
     category: "electronics",
-    image: "https://cdn.pixabay.com/photo/2016/02/14/20/37/game-console-playstation-3-1200184_1280.jpg",
+    image: "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
     rating: {
       rate: 4.8,
       count: 319,
@@ -193,7 +193,7 @@ export const products = [
     description:
       "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
     category: "women's clothing",
-    image: "https://cdn.pixabay.com/photo/2015/10/08/10/03/clothing-977417_640.jpg",
+    image: "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
     rating: {
       rate: 2.6,
       count: 235,
@@ -207,7 +207,7 @@ export const products = [
     description:
       "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
     category: "women's clothing",
-    image: "https://cdn.pixabay.com/photo/2023/10/13/18/22/girl-8313327_640.jpg",
+    image: "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
     rating: {
       rate: 2.9,
       count: 340,
@@ -220,7 +220,7 @@ export const products = [
     description:
       "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
     category: "women's clothing",
-    image: "https://cdn.pixabay.com/photo/2022/02/18/19/23/woman-7021351_640.jpg",
+    image: "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
     rating: {
       rate: 3.8,
       count: 679,
@@ -233,7 +233,7 @@ export const products = [
     description:
       "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
     category: "women's clothing",
-    image: "https://cdn.pixabay.com/photo/2024/01/20/01/50/ai-generated-8520181_640.jpg",
+    image: "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
     rating: {
       rate: 4.7,
       count: 130,
@@ -246,7 +246,7 @@ export const products = [
     description:
       "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
     category: "women's clothing",
-    image: "https://cdn.pixabay.com/photo/2023/10/24/02/01/women-8337216_640.jpg",
+    image: "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
     rating: {
       rate: 4.5,
       count: 146,
@@ -259,7 +259,7 @@ export const products = [
     description:
       "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
     category: "women's clothing",
-    image: "https://cdn.pixabay.com/photo/2024/05/09/13/35/ai-generated-8751040_640.png",
+    image: "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
     rating: {
       rate: 3.6,
       count: 145,
