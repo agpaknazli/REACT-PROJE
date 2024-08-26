@@ -1,20 +1,21 @@
 import React from 'react'
 import './Header.scss'
 
-const Header = () => {
-
-  const categories = ['All', 'Electronics', 'Jewelery', 'Men\'s Clothing', 'Women\'s Clothing']
-
+const Header = ({categorieS}) => {
   return (
-    <>
-      <h1 className='header'>Product List</h1>
-      <div className='btnWrapper'>
+    <div className='header'>
+
+      <h1>Product List</h1>
+      <div className='btnDiv'>
         {
-          categories.map((category, i) => <button type='button' key={i}>{category}</button>)
-        }
+          categorieS.map((a,i) => (
+            <button key={i}>{a}</button>
+          ))}
+
       </div>
-    </>
-  )
+        
+      </div>
+  );
 }
 
 export default Header

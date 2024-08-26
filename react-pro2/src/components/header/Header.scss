@@ -1,27 +1,40 @@
-@use "../../scss/variables"; 
-@use "../../scss/mixins";
+@import "../../scss/variables";
+@import "../../scss/mixins";
+
+
+
 
 .header{
-    margin-top: 5rem;
-    color: variables.$secondary;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 3rem;
-}
+text-align: center;
+margin: 5rem;
+padding: 0.5rem;
 
-.btnWrapper{
-    @include mixins.wrapper(2rem)    
-}
+    h1{
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:$secondary
 
+    }
+
+    .btnDiv{      
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 1rem;
 button{
-    padding: 0.7rem 1rem;
-    background-color: white;
-    border: none;
-    transition: all 1s ease 0s;
-    border-radius: 0.7rem;
+    padding: 0.8rem;
+    border-radius: 1.5rem;
+border: none;
+cursor: pointer;
+text-transform: uppercase;
+transition: all 1s;;
+&:hover{
+    background-color: $btn-bg;
 
-    &:hover {
-        background-color: variables.$btn-bg;
-        cursor: pointer;
+}
+}
+
     }
 }
