@@ -6,10 +6,10 @@ import { categories, products } from "./helper/data";
 
 function App() {
   return (
-    <>
+    <div>
       <Header categorieS={categories}/>
-      <Products />
-    </>
+      <Products products={products} />
+      </div>
   );
 }
 

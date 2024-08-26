@@ -1,8 +1,20 @@
 import React from 'react'
 
-const ProductCard = () => {
+const ProductCard = ({title,image,price}) => {
+
+// const{title,img,price}=urun
+
+
   return (
-    <div>ProductCard</div>
+    <div className='card'>
+      <div className='price'>
+        <h3>{price}</h3>
+      </div>
+      <img src={image} alt="" />
+      <div className='card-over'>
+        <h2>{title}</h2>
+      </div>
+    </div>
   )
 }
 
