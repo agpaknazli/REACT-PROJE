@@ -2,17 +2,21 @@
 @import"../../scss/mixins";
 
 .product-list{
-    margin: 1rem;
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-align-items: center;
-gap: 2rem;
+//     margin: 1rem;
+// display: flex;
+// justify-content: space-between;
+// flex-wrap: wrap;
+// align-items: center;
+// gap: 2rem;
+@include flexxx(space-evenly,2rem);
+
+
 
 .card{
 width: 350px;
 height: $cardHeight;
 position: relative;
+overflow: hidden;
 .price{
 position: absolute;
 top: 50%;
@@ -22,29 +26,44 @@ color: $secondary;
 padding: $cardPadding;
 border-radius: $borderRadius;
 transform: translate(-50%,-50%);
+z-index: 2;
+
 
 }
 img{
     width: 100%;
     height:$cardHeight;
     border-radius: $borderRadius;
-    filter: sepia(100%);
+  
+    filter: none;
+    
 
 }
 
 
 &-over{
+    width: 100%;
+    font-size: 1.2rem;
+    background-color:$cardColor;
+    padding: $cardPadding;
+    border-radius: $borderRadius;
+    background-color: $tag-bg;
+    color: darken(white,35%);
+    position: absolute;
+    bottom: 0;
+
+    transform: translateX(100%);
+    transition: all 0.7s;
+
 
 }
-
-
+&:hover .card-over{
+transform: translateX(0%);
 }
-
-
-
-
-
-
+&:hover img{
+    filter: sepia(100%);
+}
+}
 
 
 

@@ -17,12 +17,15 @@ padding: 0.5rem;
 
     }
 
-    .btnDiv{      
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-gap: 1rem;
+    .btnDiv{   
+
+// display: flex;
+// flex-wrap: wrap;
+// justify-content: center;
+// align-items: center;
+// gap: 1rem;
+@include flexxx(center,1rem);
+
 button{
     padding: 0.8rem;
     border-radius: 1.5rem;
