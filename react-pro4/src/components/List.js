@@ -2,12 +2,13 @@ import React from "react";
 import data from "../helper/data";
 
 
-const List = () => {
+const List = ({number}) => {
 
+  const displayedData = data.slice(number - 1, number + 4); // 
 
   return (
  <>
-    {data.map((item)=>{
+    {displayedData.map((item)=>{
 
 return(
 <article className="person">

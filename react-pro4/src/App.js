@@ -1,19 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import List from './components/List';
 
 function App() {
  
+const [number, setNumber] =useState(1);
+
+const prevHandler = () => {
+if(number > 4){
+  setNumber(prevNumber => prevNumber -5);
+}}
+const nextHandler = () => {
+  if(number < 16){
+    setNumber(prevNumber => prevNumber +5);
+  }};
+
+
   return (
     <main>
       <section className="container">
         <h3>Employee List</h3>
         <h5>
-          (Employees 1 to 5)
+          (Employees {number} to {number+4})
         </h5>
-        <List />
+        <List number={number}/>
         <div className='btns'>
-          <button >Prev</button>
-          <button >Next</button>
+          <button onClick={prevHandler} >Prev</button>
+          <button onClick={nextHandler} >Next</button>
         </div>
       </section>
     </main>
