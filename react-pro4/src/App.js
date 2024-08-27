@@ -24,8 +24,8 @@ const nextHandler = () => {
         </h5>
         <List number={number}/>
         <div className='btns'>
-          <button onClick={prevHandler} >Prev</button>
-          <button onClick={nextHandler} >Next</button>
+          <button onClick={prevHandler} disabled={number<=4} >Prev</button>
+          <button onClick={nextHandler} disabled={number >=16} >Next</button>
         </div>
       </section>
     </main>

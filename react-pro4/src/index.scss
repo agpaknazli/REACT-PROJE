@@ -123,4 +123,8 @@ main {
   border-radius: $radius;
   outline: 1px solid rgba(242, 138, 178, 0.8);
   cursor: pointer;
+  &:disabled{
+    background-color: rgba(241, 239, 237, 0.307);
+    outline: 1px solid rgba(7, 121, 28, 0.8);
+  }
 }
