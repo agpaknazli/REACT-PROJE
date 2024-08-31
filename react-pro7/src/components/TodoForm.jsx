@@ -26,7 +26,16 @@ data.current.value="";
 };
 
 const toggle=(id)=>{
-setValue((prevValue))
+setValue((prevValue)=>{
+  return prevValue.map((todo)=>{
+
+if(todo.id===id){
+  return {...todo, İsComplete: !todo.İsComplete};
+}
+ return todo;
+  })
+
+})
 }
 
 
@@ -60,7 +69,7 @@ useEffect(()=>{
 
 value.map((todo)=>(
 
-<TodoItem key={todo.id} todo={todo}  />
+<TodoItem key={todo.id} todo={todo} toggle={toggle}  />
 
 
 ))}
