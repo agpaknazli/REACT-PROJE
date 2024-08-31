@@ -14,9 +14,15 @@ const handleSubmit=(e)=>{
   }
   data.current.value="";
     
-console.log(İnputText)
+const newTode={
+  id:value.length()+1,
+  text:İnputText,
+  İsComplete:false
+};
 
-}
+setValue((prev)=>[...prev,newTode]);
+
+};
 
 
 
