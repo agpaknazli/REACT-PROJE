@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import TodoItem from './TodoItem';
+
 
 const TodoForm = () => {
 const[value, setValue]=useState("")
@@ -15,7 +17,16 @@ const handleSubmit=(e)=>{
     }  placeholder='Enter Your Todo' type="text" name='todo' id='todo' />
 
     <button  type="submit" className='todo-btn'>Add New Task</button>
+
+
+
+
+       <div className=''>
+      
+        {/* YAPILACAK GÖREVLER */}
         
+        <TodoItem/>
+        </div> 
         
         </form>
   )
