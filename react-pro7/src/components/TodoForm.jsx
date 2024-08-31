@@ -1,9 +1,10 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import TodoItem from './TodoItem';
+import { FaPlus } from "react-icons/fa";
 
 
 const TodoForm = () => {
-const[value, setValue]=useState("");
+const[value, setValue]=useState([]);
 const data=useRef();
 const handleSubmit=(e)=>{
   e.preventDefault();
@@ -12,22 +13,33 @@ const handleSubmit=(e)=>{
     return null;
 
   }
-  data.current.value="";
+ 
     
 const newTode={
-  id:value.length()+1,
+  id:value.length+1,
   text:İnputText,
   İsComplete:false
 };
 
 setValue((prev)=>[...prev,newTode]);
-
+data.current.value="";
 };
+
+const toggle=(id)=>{
+setValue((prevValue))
+}
+
+
+useEffect(()=>{
+
+},[value]);
 
 
 
   return (
     <form className='TodoForm' onSubmit={handleSubmit} >
+
+      <div className='add'>
     <input ref={data} className='todo-input placeholder:text-sclate-400' 
     
     
@@ -35,16 +47,26 @@ setValue((prev)=>[...prev,newTode]);
     
     placeholder='Enter Your Todo' type="text" name='todo' id='todo' />
 
-    <button  type="submit" onChange={()=>handleSubmit()} className='todo-btn'>Add New Task</button>
+    <button  type="submit" onChange={()=>handleSubmit()} className='todo-btn'><FaPlus /></button>
 
-
+    </div>
 
 
        <div className=''>
       
         {/* YAPILACAK GÖREVLER */}
         
-        <TodoItem/>
+        {
+
+value.map((todo)=>(
+
+<TodoItem key={todo.id} todo={todo}  />
+
+
+))}
+
+
+
         </div> 
         
         </form>
