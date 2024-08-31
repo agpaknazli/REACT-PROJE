@@ -34,7 +34,10 @@ const TodoForm = () => {
   };
 
   const deleteTodo=(id)=>{
-return setValue.filter((value)=value.id !==id)
+    setValue((prevValue)=>{
+      return prevValue.filter((value)=>value.id !==id)
+    })
+
   }
 
   useEffect(() => {

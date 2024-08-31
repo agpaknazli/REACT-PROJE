@@ -5,6 +5,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const TodoItem = ({todo, toggle, deleteTodo}) => {
  
+const handleToDo = ()=>{
+  return(
+
+
+    deleteTodo(todo.id)
+  )
+}
+
+
   return (
     <div  
     className='bg-primary text-white p-3 d-flex justify-content-center select-none' style={{ gap: '2rem'}} onClick={()=>toggle(todo.id)} >
@@ -24,7 +33,7 @@ const TodoItem = ({todo, toggle, deleteTodo}) => {
        
       <FaRegTrashAlt className=''
       
-      onClick={()=>deleteTodo(value.id)}
+      onClick={handleToDo}
       />
       
       
