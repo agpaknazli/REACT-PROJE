@@ -1,11 +1,11 @@
 import React from 'react'
-import { FaRegCheckCircle } from "react-icons/fa";
-import { FaRegTrashAlt } from "react-icons/fa";
+import { FaRegCheckCircle, FaRegTrashAlt,} from "react-icons/fa";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const TodoItem = () => {
   return (
-    <div className='w-full bg-blue-300'><FaRegCheckCircle />TodoItem <FaRegTrashAlt /></div>
+    <div className='bg-primary text-white p-3 d-flex justify-content-center ' style={{ gap: '2rem' }}><FaRegCheckCircle />TodoItem <FaRegTrashAlt /></div>
   )
 }
 
